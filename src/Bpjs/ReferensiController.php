@@ -69,7 +69,7 @@ Class ReferensiController
 		return $this->antrol->postRequest($endpoint, $data, "POST");
 	}
 
-	public function getPoliKontnrol($jnsKontrol, $nomor, $tglRencana)
+	public function getPoliKontrol($jnsKontrol, $nomor, $tglRencana)
 	{
 		$endpoint = 'RencanaKontrol/ListSpesialistik/JnsKontrol/'.$jnsKontrol. '/nomor/'.$nomor.'/TglRencanaKontrol/'.$tglRencana;
 		return $this->bridging->getRequest($endpoint);
