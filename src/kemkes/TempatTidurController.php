@@ -15,5 +15,6 @@ class TempatTidurController
     {
         $url = 'Fasyankes';
         $tempattidur = $this->bridging->getRequest($url);
+        return $tempattidur;
     }
 }
